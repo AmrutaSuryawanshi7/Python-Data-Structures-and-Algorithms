@@ -1,6 +1,6 @@
 """
 Python Data Structure - A Game-Based Approach
-Stack Class
+Stack Class - LIFO (Last-In, First-Out)
 """
 
 
@@ -30,6 +30,10 @@ class Stack:
         return str(self.items)
 
 
+"""
+Reason of writing __main__, because if we ever wanted to import above class into a different file, 
+we could do so without executing with below code, that keeps it modular. 
+"""
 if __name__ == "__main__":
     s = Stack()
     print(f"List {s}")
