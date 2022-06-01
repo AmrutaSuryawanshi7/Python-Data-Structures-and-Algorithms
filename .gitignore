@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Folder
+/Ex_Files_Python_Data_Structures
+/.idea

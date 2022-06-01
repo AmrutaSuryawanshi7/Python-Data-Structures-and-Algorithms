@@ -10,6 +10,7 @@ def read_maze(file_name):
     """
     try:
         with open(file_name) as file:
+            # list comprehension
             maze = [[char for char in line.strip("\n")] for line in file]
             num_of_rows_means_total_col = len(maze[0])
 
